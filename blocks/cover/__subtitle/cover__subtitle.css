@@ -6,6 +6,8 @@
   line-height: 22px;
   font-weight: normal;
   font-style: normal;
+  z-index: 2;
+  white-space: pre-line;
 }
 
 @media screen and (max-width: 767px) {
