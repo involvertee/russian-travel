@@ -4,13 +4,15 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  min-width: 320px;
-  max-width: 1280px;
+  max-width: 1184px;
+  min-width: 320px
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
     padding: 88px 24px 24px;
+    max-width: 928px;
+    
   }
 }
 
@@ -18,5 +20,6 @@
   .footer {
     padding: 64px 118px 24px 16px;
     flex-direction: column;
+    max-width: 720px;
   }
 }
