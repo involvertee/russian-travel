@@ -15,8 +15,3 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .intro__list {
-    min-width: 288px;
-  }
-}
